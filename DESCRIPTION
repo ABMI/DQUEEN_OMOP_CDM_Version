@@ -1,0 +1,39 @@
+Package: DQUEEN
+Type: Package
+Title: Data Quality check
+Version: 0.1.0
+Author: enzo
+Maintainer: The package maintainer <lance.byun@gmail.com>
+Description: Data Quality Assessment & management Tool
+Depends:
+    R(>= 3.5.3)
+Imports: 
+    rJava(>= 0.9-12),
+    DatabaseConnector(>= 3.0.0),
+    SqlRender(>= 1.6.6),
+    shiny(>= 1.4.0.2),
+    shinyjs(>= 1.1),
+    highcharter(>= 0.8.2),
+    treemap(>= 2.4-2),
+    DT(>= 0.13),
+    xts(>= 0.12-0),
+    dplyr(>= 1.0.0),
+    dygraphs(>= 1.1.1.6),
+    lubridate(>= 1.7.9),
+    plotly(>= 4.9.2.1),
+    ECharts2Shiny(>= 0.2.13),
+    shinythemes(>= 1.1.2),
+    visNetwork(>= 2.0.9),
+    ggplot2(>= 3.3.1),
+    ggiraph(>= 0.7.8),
+    reshape(>= 0.8.8),
+    reshape2(>= 1.4.4),
+    knitr(>= 1.28),
+    shinyBS(>= 0.61),
+    ParallelLogger(>= 2.0.0)
+suggests:
+    devtools,
+    roxygen2
+License: Apache License 2.0
+Encoding: UTF-8
+LazyData: true
